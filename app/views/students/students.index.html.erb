@@ -1,6 +1,6 @@
 <h1>All Students:</h1>
 
-<% @students.each do |student|%>
-    <%=student.first_name%>
-    <%=student.last_name%>
-<%end%>
+<% @students.each do |s| %>
+    <%= s.first_name %>
+    <%= s.last_name %>
+<% end %>
